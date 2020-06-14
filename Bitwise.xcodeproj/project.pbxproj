@@ -14,6 +14,8 @@
 		8A02091A2479A85A00CE786C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0209192479A85A00CE786C /* Assets.xcassets */; };
 		8A02091D2479A85A00CE786C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A02091B2479A85A00CE786C /* LaunchScreen.storyboard */; };
 		8A0209202479A85A00CE786C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A02091F2479A85A00CE786C /* main.m */; };
+		8A0209282479A87F00CE786C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0209272479A87F00CE786C /* Student.m */; };
+		8A02092B247AB6CB00CE786C /* TodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A02092A247AB6CB00CE786C /* TodoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		8A02091C2479A85A00CE786C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A02091E2479A85A00CE786C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A02091F2479A85A00CE786C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A0209262479A87F00CE786C /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		8A0209272479A87F00CE786C /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		8A020929247AB6CB00CE786C /* TodoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoViewController.h; sourceTree = "<group>"; };
+		8A02092A247AB6CB00CE786C /* TodoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				8A02090D2479A85800CE786C /* AppDelegate.h */,
+				8A0209262479A87F00CE786C /* Student.h */,
+				8A0209272479A87F00CE786C /* Student.m */,
 				8A02090E2479A85800CE786C /* AppDelegate.m */,
 				8A0209102479A85800CE786C /* SceneDelegate.h */,
 				8A0209112479A85800CE786C /* SceneDelegate.m */,
 				8A0209132479A85800CE786C /* ViewController.h */,
 				8A0209142479A85800CE786C /* ViewController.m */,
+				8A020929247AB6CB00CE786C /* TodoViewController.h */,
+				8A02092A247AB6CB00CE786C /* TodoViewController.m */,
 				8A0209162479A85800CE786C /* Main.storyboard */,
 				8A0209192479A85A00CE786C /* Assets.xcassets */,
 				8A02091B2479A85A00CE786C /* LaunchScreen.storyboard */,
@@ -146,8 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A02092B247AB6CB00CE786C /* TodoViewController.m in Sources */,
 				8A0209152479A85800CE786C /* ViewController.m in Sources */,
 				8A02090F2479A85800CE786C /* AppDelegate.m in Sources */,
+				8A0209282479A87F00CE786C /* Student.m in Sources */,
 				8A0209202479A85A00CE786C /* main.m in Sources */,
 				8A0209122479A85800CE786C /* SceneDelegate.m in Sources */,
 			);

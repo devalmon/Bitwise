@@ -14,6 +14,16 @@
 
 @implementation ViewController
 
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        UIViewController *todoVC = [[UIViewController alloc] init];
+        todoVC.title = @"ToDo";
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

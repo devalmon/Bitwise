@@ -7,6 +7,7 @@
 //
 
 #import "SceneDelegate.h"
+#import "Student.h"
 
 @interface SceneDelegate ()
 
@@ -19,6 +20,23 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+
+    /*
+    student.studiesAnatomy = YES;
+    student.studiesDevelopment = YES;
+    student.studiesEnginering = YES;
+    student.studiesMath = YES;
+    student.studiesPsychology = NO;
+    student.studiesArt = NO;
+    student.studiesBiology = NO;
+    
+    NSLog(@"%@", student.description);
+     */
+    
+    Student *student = Student.new;
+    student.subjectType = StudentSubjectTypeAnatomy | StudentSubjectTypeMath | StudentSubjectTypeDevelopment | StudentSubjectTypeEnginering;
+    
+    
 }
 
 
